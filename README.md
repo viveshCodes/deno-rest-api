@@ -60,3 +60,16 @@ choco install deno
 * ``` deno run --allow-read filename``` (to read a file)
 * ``` deno run --allow-write filename``` (to write into a file)
 * ``` deno run --allow-net filename``` (to run server file)
+
+## REST API
+1. Download Postman from [here](https://www.postman.com/downloads/)
+2. Go to directory **deno-rest-api** and run the command
+``` deno run --allow-net app.ts```
+3. Perform these requests in postman,
+  ```
+GET      /api/v1/products
+GET      /api/v1/products/:id
+POST     /api/v1/products
+PUT      /api/v1/products/:id
+DELETE   /api/v1/products/:id
+```
