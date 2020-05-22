@@ -55,3 +55,8 @@ brew install deno
 ```powershell
 choco install deno
 ```
+## Running File
+* ``` deno run filename```
+* ``` deno run --allow-read filename``` (to read a file)
+* ``` deno run --allow-write filename``` (to write into a file)
+* ``` deno run --allow-net filename``` (to run server file)
